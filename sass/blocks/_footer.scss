@@ -1,0 +1,83 @@
+.footer{
+    &__container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__flex{
+        display: flex;
+    }
+
+    &__logo{
+        padding: 37px 0 50px 0;
+    }
+
+    &__tel{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        color: $main-white;
+        text-decoration: none;
+    }
+
+    &__address{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 28px;
+        color: $main-white;
+        padding: 25px 0 84px 0;
+    }
+
+    &__right{
+        width: 100%;
+        background-color: $main-black;
+        padding-left: 69px;
+    }
+
+    &__menu{
+        display: flex;
+    }
+
+    &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 17px;
+        color: $main-white;
+        opacity: 0.8;
+        // padding: ;
+        text-decoration: none;
+        padding-right: 95px;
+    }
+
+    &__navs{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__gap{
+        gap: 30px;
+    }
+
+    &__socials{
+        padding-top: 85px;
+
+        &_link{
+            font-style: 0;
+            padding-right: 39px;
+        }
+    }
+    
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        opacity: 0.8;
+        color: $main-white;
+        padding-top: 48px;
+    }
+}

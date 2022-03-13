@@ -1,0 +1,94 @@
+
+.reviews{
+
+    
+    margin-bottom: 175px;
+
+    &__inner{
+        position: relative;
+        background: #ecf9eb;
+        padding: 70px 25px 0 104px;
+        
+        
+    }
+
+    &__box1{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+
+
+        &_text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #1c1e23;
+            opacity: 0.8;
+            max-width: 746px;
+        }
+    }
+
+    
+        
+    
+
+    &__name{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: $main-black;
+        padding: 7px 0 10px 0;
+        padding-bottom: 10px;
+        margin-right: 111px;
+        width: 100%;
+    }
+
+    &__date{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        opacity: 0.8;
+        color: $main-black;
+    }
+
+    &__item_link{
+        position: absolute;
+        right: 415px;
+        bottom: 60px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        background-color: $main-green;
+        text-align: center;
+        width: 285px;
+        height: 66px;
+
+        a{  
+            display: flex;
+            justify-content: center;
+            padding: 21px 65px ;
+            display: inline;
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: $main-white;
+
+        }
+    }
+
+    &__padding{
+        padding-bottom: 110px;
+    }
+}
+
+.column{
+    flex-direction: column;
+}
+

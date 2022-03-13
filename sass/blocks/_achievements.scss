@@ -1,0 +1,159 @@
+.achievements{
+    margin-bottom: 166px;
+
+    &__heading{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 28px;
+        text-align: center;
+        color: $main-black;
+        margin-bottom: 75px;
+    }
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__box{
+        position: relative;
+        padding: 40px 15px 12px 31px ;
+        background: $main-white;
+        box-shadow: 0px 10px 10px #F0F0F0;
+        min-width: 380px;
+        max-width: 381px;
+        margin-right: 27px;
+        min-height: 315px;
+
+        &_heading{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 26px;
+            color: $main-black;
+            margin: 0;
+            padding-bottom: 33px;
+        }
+
+        &_text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1c1e23;
+            opacity: 0.8;
+            margin: 0;
+        }
+
+        &_number{
+            position: absolute;
+            right: 30px;
+            bottom: 76px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 180px;
+            line-height: 36px;
+            color: rgba(85, 166, 48, 0.25);
+        }
+    }
+
+    &__certificate{
+        position: relative;
+        min-width: 380px;
+        max-width: 381px;
+        padding: 40px 22px 70px 31.5px;
+        background: $main-white;
+        box-shadow: 0px 10px 10px #F0F0F0;
+        background-color: #b7ecb1;
+        margin-right: 30px;
+        min-height: 315px;
+        
+    }
+
+    // Certificate
+
+    .certificate{
+        &__heading{
+            padding-bottom: 31px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 26px;
+            color: $main-black;
+            margin: 0;
+        }
+
+        &__text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1c1e23;
+            opacity: 0.8;
+            margin: 0;
+        }
+
+        &__number{
+            max-width: 231px;
+            position: absolute;
+            right: 25px;
+            bottom: 99px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 180px;
+            line-height: 36px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    // quafilization
+
+    &__quafilization{
+        position: relative;
+        padding: 28px 21px 84px 32px;
+        background: $main-white;
+        box-shadow: 0px 10px 10px #F0F0F0;
+        min-width: 380px;
+        max-width: 381px;
+        min-height: 315px;
+
+    }
+
+    .quafilization{
+        &__heading{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 26px;
+            color: $main-black;
+            padding-bottom: 14px;
+            margin: 0;
+        }
+
+        &__text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1C1E23;
+            opacity: 0.8;
+            margin: 0;
+        }
+        
+        &__number{
+            position: absolute;
+            right: 11px;
+            bottom: -22px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 180px;
+            line-height: 36px;
+            color: rgba(85, 166, 48, 0.25);
+        }
+    }
+}

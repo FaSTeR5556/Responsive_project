@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.doctors{
+    margin-bottom: 177px;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__image{
+        margin-bottom: 20px;
+
+    }
+
+    &__name{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: $main-black;
+        margin-bottom: 5px;
+    }
+
+    &__profession{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        opacity: 0.8;
+        color: #1c1e23;
+    }
+}

@@ -5,9 +5,411 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Document</title>
+  <title>Kasmetalogiya</title>
 </head>
 <body>
-  
+  <header class="header">
+    <div class="header__desktop">
+      <div class="header__top_container container">
+        <a class="header__logo" href="#">
+          <img class="header__logo_image" src="./images/logo-main.svg" alt="logo" width="226" height="63" >  
+        </a>
+        <div class="header__wrapper">
+          <a class="header__tel" href="tel:0800508622">0 (800) 508-622</a>
+          <div class="socials header__socials">
+            <a class="socials__link" href="" >
+             <img class="socials_icon" src="./images/fb.png" alt="icon">
+            </a>
+            <a class="socials__link" href="" >
+              <img class="socials_icon" src="./images/ins.png" alt="icon">
+            </a>
+          </div>
+          <select class="socials__lang">
+            <option value="" selected></option>
+            <option value="ru" >Russia</option>
+            <option value="en" >English</option>
+          </select>
+        </div>
+      </div>
+      <div class="header__line"></div>
+      <div class="header__bottom_container container">
+        <nav class="navs">
+            <a class="navs__item_link" href="#">Курсы обучения</a>
+            <a class="navs__item_link" href="#">Вебинары</a>
+            <a class="navs__item_link" href="#">Видео-уроки</a>
+            <a class="navs__item_link" href="#">Блог</a>
+            <a class="navs__item_link" href="#">О нас</a>
+            <a class="navs__item_link" href="#">Прайс</l>
+            <a class="navs__item_link" href="#">Рассписание</a>
+            <a class="navs__item_link" href="#">Акции</a>
+            <a class="navs__item_link" href="#">Магазин</a>
+        </nav>
+      </div>
+      <button class="header__xbutton">
+        <img class="header__xbutton_icon" src="./images/x-button.png" alt="icon" width="30" height="30" >
+      </button>
+    </div>
+
+    <div class="header__mobile">
+      <div class="header__mobile_container container">
+        <a class="header__logo" href="#">
+          <img class="header__logo_image" src="./images/logo.svg" alt="logo" width="74" height="74" >  
+        </a>
+        <a class="header__tel" href="tel:0800508622">0 (800) 508-622</a>
+        <button class="header__hamburger">
+          <img class="header__hamburger_icon" src="./images/hamburger.png" alt="icon" width="50" height="24" >
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__top">
+          <h4 class="hero__heading">
+            Учебный центр эстетической косметологии VAlmari
+          </h4>
+          <picture>
+            <source media="(max-width: 320px)" srcset="./images/hero__image5.jpg">
+            <source media="(max-width: 480px)" srcset="./images/hero__image4.jpg">
+            <source media="(max-width: 768px)" srcset="./images/hero__image3.jpg">
+            <source media="(max-width: 1000px)" srcset="./images/hero__image2.jpg">
+            <img class="hero__image" src="./images/hero__image1.jpg" alt="image" width="589" height="452">
+          </picture>
+        </div>
+        <div class="hero__bottom_container">
+          <div class="hero__bottom">
+            <p class="hero__bottom_paragraph hero__bottom_paragraph_top">
+              Ведущий учебный центр эстетической косметологии. Более 5 лет мы проводим сертифицированные курсы профессионального образования в области косметологии и индустрии красоты.
+            </p>
+            <p class="hero__bottom_paragraph">
+              В данный момент в Харькове нет аналогов нашего учебного центра по уровню подготовки и разнообразию читаемых курсов. Все выпускники нашего учебного центра востребованы в: институтах омоложения и здоровья, Спа-центрах, салонах красоты, частных клиниках и других организация в сфере "красоты и здоровья". 
+            </p>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="info">
+      <h2 class="info__heading">
+        Мы - это обучение с  комфортом
+      </h2>
+      <div class="container info__container">
+        <div class="info__inner">
+          <picture class="info__picture">
+            <source srcset="./images/info1_320.jpg" width="300" height="156" media="(max-width: 320px)">
+            <source srcset="./images/info1_480.jpg" width="360" height="156" media="(max-width: 480px)">
+            <source srcset="./images/info1_768.jpg" width="256" height="226" media="(max-width: 768px)">
+            <source srcset="./images/info1_1000.jpg" width="389" height="265" media="(max-width: 1000px)">
+            <img class="info__image" srcset="./images/info1_auto.jpg" width="488" height="396" alt="image">
+          </picture>
+          <div class="info__right">
+            <h2 class="info__right_title">
+              Удобный формат обучения
+            </h2>
+            <div class="info__right_line"></div>
+            <p class="info__right_text">
+              Мы стараемся для вас и делаем обучение еще комфортнее! <br>
+            </p>
+            <p class="info__right_text info__right_text-padding ">
+              У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+            </p>
+          </div>
+        </div>
+
+        <div class="info__inner">
+          <picture class="info__picture picture">
+            <source srcset="./images/info2_320.jpg" width="300" height="156" media="(max-width: 320px)">
+            <source srcset="./images/info2_480.jpg" width="360" height="156" media="(max-width: 480px)">
+            <source srcset="./images/info2_768.jpg" width="256" height="226" media="(max-width: 768px)">
+            <source srcset="./images/info2_1000.jpg" width="389" height="265" media="(max-width: 1000px)">
+            <img class=" info__order info__order2" srcset="./images/info2_auto.jpg" width="488" height="396"
+              alt="image">
+          </picture>
+          <div class="info__right info__order">
+            <h2 class="info__right_title">
+              Светлые аудитории
+            </h2>
+            <div class="info__right_line"></div>
+            <p class="info__right_text">
+              Мы стараемся для вас и делаем обучение еще комфортнее! <br>
+            </p>
+            <p class="info__right_text info__right_text-padding ">
+              У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+            </p>
+          </div>
+        </div>
+
+        <div class="info__inner">
+          <picture class="info__picture">
+            <source srcset="./images/info3_320.jpg" width="300" height="156" media="(max-width: 320px)">
+            <source srcset="./images/info3_480.jpg" width="360" height="156" media="(max-width: 480px)">
+            <source srcset="./images/info3_768.jpg" width="256" height="226" media="(max-width: 768px)">
+            <source srcset="./images/info3_1000.jpg" width="389" height="265" media="(max-width: 1000px)">
+            <img class="info__image info__margin" srcset="./images/info3_auto.jpg" width="488" height="396" alt="image" >
+          </picture>
+          <div class="info__right">
+            <h2 class="info__right_title">
+              Обучение в маленьких группах
+            </h2>
+            <div class="info__right_line"></div>
+            <p class="info__right_text">
+              Мы стараемся для вас и делаем обучение еще комфортнее! <br>
+            </p>
+            <p class="info__right_text info__right_text-padding ">
+              У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section class="statistics">
+      <div class="container">
+        <h2 class="statistics__heading">
+          Наши достижения
+        </h2>
+        <div class="statistics__box">
+          <ol class="statistics__item">
+            <li class="statistics__list">
+              <h4 class="statistics__box_number">
+                4000+
+              </h4>
+              <p class="statistics__box_text">
+                Сертификатов мы выдали
+              </p>
+            </li>
+            <li class="statistics__list">
+              <h4 class="statistics__box_number">
+                3500+
+              </h4>
+              <p class="statistics__box_text">
+                Моделей в нашей 
+              </p>
+            </li>
+            <li class="statistics__list">
+              <h4 class="statistics__box_number">
+                1500+
+              </h4>
+              <p class="statistics__box_text">
+                Специалистов мы обучили
+              </p>
+            </li>
+            <li class="statistics__list">
+              <h4 class="statistics__box_number">
+                5500+
+              </h4>
+              <p class="statistics__box_text">
+                Довольных клиентов
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section> 
+    <!-- <section class="achievements">
+      <div class="container achievements__container">
+        <h3 class="achievements__heading">
+          Почему мы
+        </h3>
+        <div class="achievements__inner">
+          <div class="achievements__box">
+            <h4 class="achievements__box_heading">
+              Преподаватели
+            </h4>
+            <p class="achievements__box_text">
+              Наши преподаватели имеют многолетний опыт в сфере косметологии и совмещают преподовательскую деятельность с практической работой в салонах красоты и других специализированных центрах.
+            </p>
+            <div class="achievements__box_number">
+              01
+            </div>
+          </div>
+          <div class="achievements__certificate">
+            <h4 class="certificate__heading">
+              Сертификаты
+            </h4>
+            <p class="certificate__text">
+              Удостоверение, сертификат и свидетельство полученные у нас по окончанию курсов, работают как лучшая "рекомендация" при приеме на работу
+            </p>
+            <h1 class="certificate__number">02</h1>
+          </div>
+          <div class="achievements__quafilization">
+            <h4 class="quafilization__heading">
+              Повышение квалификации
+            </h4>
+            <p class="quafilization__text">
+              Ежегодно, больше 2000 косметологов повышают квалификацию и уровень профессионализма в просторных кабинетах нашего центра.
+            </p>
+            <h1 class="quafilization__number">
+              03
+            </h1>
+          </div> 
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="doctors">
+      <div class="container">
+        <h1 class="doctors__heading  achievements__heading">
+          Наши тренера
+        </h1>
+        <ul class="doctors__item">
+          <li class="doctors__list">
+            <img class="doctors__image" src="./images/doctor1.jpg" alt="doctor" width="285" height="380" >
+            <h4 class="doctors__name">
+              Марина Спивак
+            </h4>
+            <p class="doctors__profession">
+              Главный тренер
+            </p>
+          </li>
+          <li class="doctors__list">
+            <img class="doctors__image" src="./images/doctor2.jpg" alt="doctor" width="285" height="380" >
+            <h4 class="doctors__name">
+              Елена Белогурова
+            </h4>
+            <p class="doctors__profession">
+              Тренер 
+            </p>
+          </li>
+          <li class="doctors__list">
+            <img class="doctors__image" src="./images/doctor3.jpg" alt="doctor" width="285" height="380" >
+            <h4 class="doctors__name">
+              Алина Ядчишина
+            </h4>
+            <p class="doctors__profession">
+              Тренер 
+            </p>
+          </li>
+          <li class="doctors__list">
+            <img class="doctors__image" src="./images/doctor4.jpg" alt="doctor" width="285" height="380" >
+            <h4 class="doctors__name">
+              Юлия Щукина
+            </h4>
+            <p class="doctors__profession">
+              Руководитель сети клиник LAZERINI
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- <section class="reviews">
+      <h1 class="reviews__heading achievements__heading">
+        Отзывы
+      </h1>
+      <div class="container">
+        <div class="reviews__inner">
+          <div class="reviews__box1">
+            <div class="column">
+              <h4 class="reviews__name">
+                Ирина Бубличенко
+              </h4>
+              <p class="reviews__date">
+                15.09.2020
+              </p>
+            </div>
+            <p class="reviews__box1_text">
+              Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+            </p>
+          </div>
+            
+          <div class="reviews__box1">
+            <div class="column">
+              <h4 class="reviews__name">
+                Ирина Бубличенко
+              </h4>
+              <p class="reviews__date">
+                15.09.2020
+              </p>
+            </div>
+            <p class="reviews__box1_text">
+              Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+            </p>
+          </div>
+          <div class="reviews__box1">
+            <div class="column">
+              <h4 class="reviews__name">
+                Ирина Бубличенко
+              </h4>
+              <p class="reviews__date">
+                15.09.2020
+              </p>
+            </div>
+            <p class="reviews__box1_text">
+              Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+            </p>
+          </div>
+          <div class="reviews__box1">
+            <div class="column">
+              <h4 class="reviews__name">
+                Ирина Бубличенко
+              </h4>
+              <p class="reviews__date">
+                15.09.2020
+              </p>
+            </div>
+            <p class="reviews__box1_text reviews__padding">
+              Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+            </p>
+          </div>
+          <div class="reviews__item_link">
+            <a href="#" class="reviews__link">
+              Оставить отзыв
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+  <!-- <footer class="footer">
+    <div class="footer__container footer__flex">
+      <div class="footer__left">
+        <picture>
+          <source srcset="./images/footer320.jpg" width="320" height="218" media="(max-width: 320px)">
+          <source srcset="./images/footer480.jpg" width="481" height="272" media="(max-width: 480px)">
+          <source srcset="./images/footer768.jpg" width="356" height="591" media="(max-width: 768px)">
+          <source srcset="./images/footer1000.jpg" width="500" height="601" media="(max-width: 1000px)">
+          <img class="footer__left_image" src="./images/navigation.jpg" alt="navigation image" width="756" height="774" >
+        </picture>
+        
+      </div>
+      <div class="footer__right">
+        <div class="footer__logo">
+          <img class="footer__image" src="./images/logo.svg" alt="logo" width="98" height="98" >
+        </div>
+        <a class="footer__tel" href="tel:0800508622">
+          0 (800) 508-622
+        </a>
+        <div class="footer__address">
+          Харьков, Клочковская, д. 3
+        </div>
+        <div class="footer__menu">
+          <nav class="footer__navs">
+            <a class="footer__link" href="#">Курсы обучения</a>
+            <a class="footer__link" href="#">Вебинары</a>
+            <a class="footer__link" href="#">Видео-уроки</a>
+            <a class="footer__link" href="#">Прайс</a>
+            <a class="footer__link" href="#">Рассписание</a>
+          </nav>
+          <nav class="footer__navs footer__gap">
+            <a class="footer__link" href="#">Акции</l>
+            <a class="footer__link" href="#">О нас</a>
+            <a class="footer__link" href="#">Блог</a>
+            <a class="footer__link" href="#">Магазин</a>
+          </nav>
+        </div>
+        <div class="footer__socials">
+          <a href="#" class="footer__socials_link">
+            <img src="./images/footer__fb.png" alt="footer icon" class="footer__socials_icon" width="39" height="39">
+          </a>
+          <a href="#" class="footer__socials_link">
+            <img src="./images/footer__ins.png" alt="footer icon" class="footer__socials_icon" width="39" height="39">
+          </a>
+        </div>
+        <p class="footer__text">
+          Политика конфиденциальности
+        </p>
+      </div>
+    </div>
+  </footer> -->
 </body>
 </html>
